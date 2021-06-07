@@ -1,0 +1,21 @@
+{
+    "name": "darculaonedark",
+    "displayName": "DarculaOneDark",
+    "description": "mix between Darcula and One Dark of Atom (theme focusing on python)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darcula One Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darcula One Dark-color-theme.json"
+            }
+        ]
+    }
+}
