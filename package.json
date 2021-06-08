@@ -3,6 +3,19 @@
     "displayName": "DarculaOneDark",
     "description": "mix between Darcula and One Dark of Atom (theme focusing on python)",
     "version": "0.0.1",
+    "publisher": "themer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ocheffert/MyPythonTheme"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "Darcula",
+        "One dark",
+        "Atom",
+        "Darcula One Dark"
+    ],
     "engines": {
         "vscode": "^1.56.0"
     },

@@ -36,6 +36,7 @@
 		"class": "#b68c3e",
 		"selfParameter": {"foreground": "#b68c3e", "fontStyle":"italic bold" },
 		"property": {"foreground": "#9E7BB0", "fontStyle": "italic bold"},
+		// "property": {"foreground": "#C678DD", "fontStyle": "italic bold"},
 		"magicFunction": {"foreground": "#61AFEF", "fontStyle":"italic bold" },
 		"class.builtin": "#e5c07b"
 	},
