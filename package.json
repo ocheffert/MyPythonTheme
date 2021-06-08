@@ -28,6 +28,11 @@
                 "label": "Darcula One Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Darcula One Dark-color-theme.json"
+            },
+            {
+                "label": "Darcula One dark without red",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darcula One Dark no red-color-theme.json"
             }
         ]
     }
