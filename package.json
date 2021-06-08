@@ -2,7 +2,7 @@
     "name": "darculaonedark",
     "displayName": "DarculaOneDark",
     "description": "mix between Darcula and One Dark of Atom (theme focusing on python)",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "themer",
     "repository": {
         "type": "git",
