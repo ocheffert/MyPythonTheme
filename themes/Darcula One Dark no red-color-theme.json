@@ -45,7 +45,8 @@
 			"foreground": "#61AFEF",
 			"fontStyle": "italic"
 		},
-		"class.builtin": "#e5c07b"
+		"class.builtin": "#e5c07b",
+		"class.decoratorbuiltin": "#61AFEF"
 	},
 	"tokenColors": [
 		{
@@ -224,6 +225,14 @@
 			"settings": {
 				"foreground": "#D19A66",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "decorators",
+			"scope": "punctuation.definition.decorator.python",
+			"settings": {
+				"foreground": "#61AFEF",
+				"fontStyle": "bold"
 			}
 		}
 	]
