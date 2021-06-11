@@ -210,6 +210,14 @@
 				  "foreground": "#C678DD",
 				  "fontStyle": "bold"
 			  }
+		  },
+		  {
+			  "name": "boolean",
+			  "scope": "constant.language.python, source.python",
+			  "settings": {
+				  "foreground": "#D19A66",
+				  "fontStyle": "bold"
+			  }
 		  }
 		]
 	  }

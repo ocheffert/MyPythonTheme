@@ -1,7 +1,8 @@
 {
 	"name": "Darcula One Dark no red",
 	"type": "dark",
-	"colors": {"editor.background": "#242424",
+	"colors": {
+		"editor.background": "#242424",
 		"editor.foreground": "#cccccc",
 		"editor.selectionBackground": "#204182cc",
 		"editor.lineHighlightBackground": "#ffffff0b",
@@ -22,8 +23,7 @@
 		"badge.background": "#ffffff1a",
 		"activityBar.background": "#ffffff1a",
 		"activityBarBadge.background": "#007acc"
-
-    },
+	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"module": "#e5c07b",
@@ -33,9 +33,18 @@
 		"variable": "#92bacc",
 		"method": "#61AFEF",
 		"class": "#b68c3e",
-		"selfParameter": {"foreground": "#b68c3e", "fontStyle":"italic" },
-		"property": {"foreground": "#9E7BB0", "fontStyle": "italic"},
-		"magicFunction": {"foreground": "#61AFEF", "fontStyle":"italic" },
+		"selfParameter": {
+			"foreground": "#b68c3e",
+			"fontStyle": "italic"
+		},
+		"property": {
+			"foreground": "#9E7BB0",
+			"fontStyle": "italic"
+		},
+		"magicFunction": {
+			"foreground": "#61AFEF",
+			"fontStyle": "italic"
+		},
 		"class.builtin": "#e5c07b"
 	},
 	"tokenColors": [
@@ -43,171 +52,179 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-			  "foreground": "#7F848E",
-			  "fontStyle": "italic"
+				"foreground": "#7F848E",
+				"fontStyle": "italic"
 			}
-		  },
-		  {
-			  "name": "for, if, ...",
-			  "scope": "keyword.control.flow.python, source.python",
-			  "settings": {
-				  "foreground": "#C678DD",
-				  "fontStyle": "italic"
-			  }
-		  },
-		  {
-			  "name": "import",
-			  "scope": "keyword.control.import.python, source.python",
-			  "settings": {
-				  "foreground": "#C678DD",
-				  "fontStyle": "italic"
-			  }
-		  },
-		  {
-			  "name": "strings",
-			  "scope": "string.quoted.docstring.multi.python, source.python",
-			  "settings": {
-				  "foreground": "#98C379",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": "single quoted",
-			  "scope": 	"string.quoted.docstring.single.python, source.python",
-			  "settings": {
-				  "foreground": "#98C379",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": "single quoted strings",
-			  "scope": "string.quoted.single.python",
-			  "settings": {
-				  "foreground": "#98C379",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": ":",
-			  "scope": "punctuation.section.function.begin.python, meta.function.python, source.python",
-				"settings": {
-				  "foreground": "#ABB2BF",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": ")",
-			  "scope": "punctuation.definition.parameters.end.python, meta.function.parameters.python, meta.function.python, source.python",
-			  "settings": {
+		},
+		{
+			"name": "for, if, ...",
+			"scope": "keyword.control.flow.python, source.python",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "import",
+			"scope": "keyword.control.import.python, source.python",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "strings",
+			"scope": "string.quoted.docstring.multi.python, source.python",
+			"settings": {
+				"foreground": "#98C379",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "single quoted",
+			"scope": "string.quoted.docstring.single.python, source.python",
+			"settings": {
+				"foreground": "#98C379",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "single quoted strings",
+			"scope": "string.quoted.single.python",
+			"settings": {
+				"foreground": "#98C379",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": ":",
+			"scope": "punctuation.section.function.begin.python, meta.function.python, source.python",
+			"settings": {
 				"foreground": "#ABB2BF",
 				"fontStyle": ""
-			  },
+			}
+		},
+		{
+			"name": ")",
+			"scope": "punctuation.definition.parameters.end.python, meta.function.parameters.python, meta.function.python, source.python",
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": ""
 			},
-			{
-				"name": "parenthesis not in signature",
-				"scope": "punctuation.parenthesis",
-				"settings": {
-					"foreground": "#ABB2BF",
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "ponctuation not in signature",
-				"scope": "punctuation.definition.arguments",
-				"settings": {
-					"foreground": "#ABB2BF",
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": ".",
-				"scope": "punctuation.separator.period.python, source.python",
-				"settings": {
-					"foreground": "#ABB2BF",
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "element separator",
-				"scope": "punctuation.separator.element.python",
-				"settings": {
-					"foreground": "#ABB2BF",
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "arguments separator",
-				"scope": "punctuation.separator.arguments.python",
-				"settings": {
-					"foreground": "#ABB2BF",
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "=",
-				"scope": "keyword.operator.assignment.python, source.python",
-				"settings": {
-					"foreground": "#56B6C2",
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "arithmetic operators",
-				"scope":"keyword.operator.arithmetic.python, meta.function-call.arguments.python, meta.function-call.python, source.python",
-				"settings": {
-					"foreground": "#56B6C2",
-					"fontStyle": ""
-				}
-			},
-		  {
-			  "name": "def",
-			  "scope": "storage.type.function.python, meta.function.python, source.python",
-			  "settings": {
-				  "foreground": "#C678DD",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": "class",
-			  "scope": "storage.type.class.python, meta.class.python, source.python",
-			  "settings": {
-				  "foreground": "#C678DD",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": "numeric",
-			  "scope": [
-				  "constant.numeric"
-			  ],
-			  "settings": {
-				  "foreground": "#D19A66",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": "comparison operators",
-			  "scope": "keyword.operator.comparison.python, source.python",
-			  "settings": {
+		},
+		{
+			"name": "parenthesis not in signature",
+			"scope": "punctuation.parenthesis",
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "ponctuation not in signature",
+			"scope": "punctuation.definition.arguments",
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": ".",
+			"scope": "punctuation.separator.period.python, source.python",
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "element separator",
+			"scope": "punctuation.separator.element.python",
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "arguments separator",
+			"scope": "punctuation.separator.arguments.python",
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "=",
+			"scope": "keyword.operator.assignment.python, source.python",
+			"settings": {
 				"foreground": "#56B6C2",
 				"fontStyle": ""
 			}
-		  },
-		  {
-			  "name": "variable in signatures",
-			  "scope": "variable.parameter.function-call.python",
-			  "settings": {
-				  "foreground": "#ff6600",
-				  "fontStyle": ""
-			  }
-		  },
-		  {
-			  "name": "logical operator",
-			  "scope": "keyword.operator.logical.python",
-			  "settings": {
-				  "foreground": "#C678DD",
-				  "fontStyle": ""
-			  }
-		  }
-		]
-	  }
+		},
+		{
+			"name": "arithmetic operators",
+			"scope": "keyword.operator.arithmetic.python, meta.function-call.arguments.python, meta.function-call.python, source.python",
+			"settings": {
+				"foreground": "#56B6C2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "def",
+			"scope": "storage.type.function.python, meta.function.python, source.python",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "class",
+			"scope": "storage.type.class.python, meta.class.python, source.python",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "numeric",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#D19A66",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "comparison operators",
+			"scope": "keyword.operator.comparison.python, source.python",
+			"settings": {
+				"foreground": "#56B6C2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "variable in signatures",
+			"scope": "variable.parameter.function-call.python",
+			"settings": {
+				"foreground": "#ff6600",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "logical operator",
+			"scope": "keyword.operator.logical.python",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "boolean",
+			"scope": "constant.language.python, source.python",
+			"settings": {
+				"foreground": "#D19A66",
+				"fontStyle": ""
+			}
+		}
+	]
+}
