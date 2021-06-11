@@ -48,7 +48,8 @@
 			"fontStyle": "italic bold"
 		},
 		"class.builtin": "#e5c07b",
-		"class.decoratorbuiltin": "#61AFEF"
+		"class.decoratorbuiltin": "#61AFEF",
+		"class.builtin.decorator": "#61AFEF",
 	},
 	"tokenColors": [
 		{

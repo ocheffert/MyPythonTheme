@@ -46,7 +46,7 @@
 			"fontStyle": "italic"
 		},
 		"class.builtin": "#e5c07b",
-		"class.decoratorbuiltin": "#61AFEF"
+		"class.builtin.decorator": "#61AFEF",
 	},
 	"tokenColors": [
 		{
