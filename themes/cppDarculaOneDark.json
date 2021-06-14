@@ -24,6 +24,14 @@
 		"titleBar.activeForeground": "#cccccc",
 		"titleBar.inactiveBackground": "#ffffff10"
 	},
+	"semanticHighlighting": true,
+	"semanticTokenColors":{
+		"variable": "#E06C75",
+        "parameter": {"foreground": "#E06C75", "italic": true},
+        "namespace": "#E5C07B",
+        "*.global": {"foreground": "#E06C75", "italic": true},
+        "String": "#98C379"
+	},
 	"tokenColors": [
 		{
 			"scope": "comment",
