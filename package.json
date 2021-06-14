@@ -1,7 +1,7 @@
 {
     "name": "darculaonedark",
     "displayName": "DarculaOneDark",
-    "description": "mix between Darcula and One Dark of Atom (theme focusing on python)",
+    "description": "mix between Darcula and One Dark of Atom (theme focusing on Python and C++)",
     "version": "0.6.0",
     "publisher": "themer",
     "repository": {
@@ -14,7 +14,9 @@
         "Darcula",
         "One dark",
         "Atom",
-        "Darcula One Dark"
+        "Darcula One Dark",
+        "Python",
+        "C++"
     ],
     "engines": {
         "vscode": "^1.56.0"
@@ -33,6 +35,11 @@
                 "label": "Darcula One dark without red",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Darcula One Dark no red-color-theme.json"
+            },
+            {
+                "label": "Darcula One Dark for C++",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cppDarculaOneDark.json"
             }
         ]
     }
