@@ -27,12 +27,12 @@
     "contributes": {
         "themes": [
             {
-                "label": "Darcula One Dark",
+                "label": "Darcula One Dark Python",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Darcula One Dark-color-theme.json"
             },
             {
-                "label": "Darcula One dark without red",
+                "label": "Darcula One dark without red Python",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Darcula One Dark no red-color-theme.json"
             },
