@@ -82,6 +82,14 @@
 			}
 		},
 		{
+			"name": "strings",
+			"scope": "string.quoted.multi.python, source.python",
+			"settings": {
+				"foreground": "#98C379",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "single quoted",
 			"scope": "string.quoted.docstring.single.python, source.python",
 			"settings": {
